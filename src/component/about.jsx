@@ -3,15 +3,15 @@ import React from 'react';
 export const About = () => {
   return (
     <div className="px-6 py-8">
-      {/* Header */}
+      
       <h1 className="font-sans text-4xl font-bold text-gray-900 mb-6">About</h1>
 
-      {/* Description */}
+     
       <p className="font-sans text-lg text-gray-700 mb-6 leading-relaxed">
         This website is built with <a href="#" className="text-blue-500 hover:underline">Next.js Commerce</a>, which is an ecommerce template for creating a headless Shopify storefront.
       </p>
 
-      {/* Features List */}
+    
       <div className="mb-6">
         <p className="font-sans text-lg font-semibold text-gray-800 mb-4">
           Support for real-world commerce features including:
@@ -34,7 +34,7 @@ export const About = () => {
         </ul>
       </div>
 
-      {/* New Features */}
+      
       <div>
         <p className="font-sans text-lg font-semibold text-gray-800 mb-4">
           This template also allows us to highlight newer Next.js features including:

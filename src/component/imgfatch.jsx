@@ -5,11 +5,12 @@ export const Imgfatch = ({ onimg }) => {
     
     const fatchImages = async () => {
        
-        const response = await fetch("https://fakestoreapi.com/products"); 
+        const response = await fetch("https://fakestoreapi.com/products");  
         const data = await response.json();
          {
           onimg(data);
          console.log(data)
+      
 
         }
    
