@@ -1,11 +1,5 @@
-import React from 'react'
+import React from "react";
 
 export const releavance = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
-
-
+	return <div></div>;
+};
